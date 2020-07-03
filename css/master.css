@@ -1,0 +1,111 @@
+* {margin: 0; }
+html, body {width: 100%;}
+ul,li {list-style: none;}
+.clearfix::after {display: block; content: ""; clear: both;}
+img {max-width: 100%; height: auto;}
+
+/*logo*/
+.logo_form {height: 80px; background-color: #b137f7; text-align: center;}
+.logotext_form {position: relative; top: 14px; 
+    color: #fff;  font-family: 'Noto Sans KR', sans-serif;
+    font-size: 2em; font-weight: 300; letter-spacing: .1em;}
+
+.logotext_form a:link {text-decoration: none; color: #fff;}
+.logotext_form a:visited {color: #fff;}
+.logotext_form a:active {color: #fff;}
+.logotext_form a:hover {color: #fff;}
+
+
+
+/*menu*/
+.menu_form {height: 40px; background-color: #cc7bfa; text-align: center;}
+.menutext_form {display: inline-block; margin: 5px 70px 70px 30px; font-size: 1.1em; font-weight: 300; font-family: 'Noto Sans KR', sans-serif;}
+
+.menutext_form a:link {text-decoration: none; color: #fff;}
+.menutext_form a:visited {color: #fff;}
+.menutext_form a:active {color: #fff;}
+.menutext_form a:hover {color: #f87bfa;}
+
+/*section*/
+#pr {height: 650px; width: 100%; background-size: cover; 
+    background-attachment: fixed; overflow: hidden;}
+
+.p1 {background-image: url(../img/bg_01.png);}
+.p2 {background-image: url(../img/bg_02.png);}
+.p3 {background-image: url(../img/bg_03.png);}
+
+
+.posi {text-align: center; margin-top: 250px;}
+.posi:hover {transform: scale(1.1); transition: 1s;}
+
+/*footer*/
+.footer_form {height: 80px; background-color: #f3f3f3;}
+.footertext_form {color: #565656; font-family: 'Noto Sans KR', sans-serif; 
+    font-size: 0.9em; font-weight: 300; text-align: center; position: relative;
+    top: 35%; text-transform: uppercase;}
+
+
+
+/*p01*/
+.p01_top {background-image: url(../img/p01_top.png); height: 400px; background-size: cover;}
+.p01_body {text-align: center;}
+.shadow {text-align: center;}
+
+
+/*p02*/
+.wrap {width: 1024px; margin: 0 auto;}
+.p02_top {background-image: url(../img/p02_top.png); height: 400px; background-size: cover;}
+
+
+.main_01, .word01 {display: inline-block; margin-top: 100px;}
+.sub01, .sub02 {display: inline-block; margin: 5px;}
+.sub03, .sub04, .sub05, .sub06 {float: left; margin: 15px;}
+.sub07 {margin-top: 600px;}
+.word02 {margin: 100px 512px 0px 0px; float: left;}
+.main_02 {float: right; margin-top: -700px;}
+.sub09, .sub10 {float: left;}
+.sub11 {float: right; margin-top: -430px;}
+.sub12, .sub13 {float: left; margin-top: 70px;}
+.sub14 {float: right; margin-top: -530px;}
+.main_03{text-align: center;}
+.sub15 {margin-top: 80px;}
+.sub16 {float: right; margin-top: -410px;}
+.sub17 {margin-top: 50px;}
+.sub18 {float: right; margin-top: -440px;}
+.sub19 {margin-top: 50px;}
+.sub20 {float: right; margin-top: -380px;}
+
+/*p03*/
+a.roll img{display: inline;}
+a.roll img.over{display: none;}
+a.roll:hover img{display: none;}
+a.roll:hover img.over{display: inline; transition: 1s;}
+
+.wrap {width: 1024px; margin: 0 auto;}
+.p03_top {background-image: url(../img/p03_top.png); height: 400px; background-size: cover;}
+.p03_top_sub {background-image: url(../img/p03/body_main.png); height: 659px; background-size: cover;}
+.p03_body {text-align: center; margin: 50px 0 10px 0;}
+
+.p03_body .main_img {float: left; background-size: cover;}
+.p03_body .main_img img {margin: 120px 0px 0px 0px;}
+
+.p03_body .sub_img {display: block; margin-top: 20px;}
+.p03_body .sub_img img {width: 209px; height: 209px; position: relative;}
+.p03_body .sub_img img:hover {transform: scale(1.8); transition: 1s;}
+
+.p03_body section.sub_img .main_01 {height: 520px; margin-bottom: 125px;}
+.p03_body section.sub_img .main_02 {height: 520px; margin-bottom: 125px;}
+.p03_body section.sub_img .main_03 {height: 520px; margin-bottom: 125px;}
+.p03_body section.sub_img .main_04 {height: 520px; margin-bottom: 125px;}
+.p03_body section.sub_img .main_05 {height: 520px; margin-bottom: 125px;}
+.p03_body section.sub_img .main_06 {height: 520px; margin-bottom: 125px;}
+.p03_body section.sub_img .main_07 {height: 520px; margin-bottom: 125px;}
+.p03_body section.sub_img .bottom {margin-top: 90px;}
+
+.footer_form{margin-top: 120px;}
+
+
+
+
+
+
